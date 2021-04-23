@@ -16,16 +16,16 @@
 
   transition: background-color var(--animation), fill var(--animation),
     background-color var(--animation);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--primary-bgc);
+  }
 }
 
 .networks__item + .networks__item {
   margin-left: 10px;
-}
-
-.network__link:hover,
-.network__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--primary-bgc);
 }
 
 /* footer  */

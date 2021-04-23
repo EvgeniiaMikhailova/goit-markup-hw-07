@@ -21,17 +21,17 @@
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-}
 
-.features__item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--additional-bgc);
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--additional-bgc);
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .icon-antenna::before {

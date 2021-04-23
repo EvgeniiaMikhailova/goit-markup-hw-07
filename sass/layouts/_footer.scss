@@ -9,11 +9,11 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: color var(--animation);
-}
 
-.footer-contacts__link:hover,
-.footer-contacts__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .adress__text {
@@ -43,10 +43,10 @@
 
 .footer__content {
   flex-basis: calc((50% - 45px) / 2);
-}
 
-.footer__content:last-child {
-  flex-basis: calc(50% - 15px);
+  &:last-child {
+    flex-basis: calc(50% - 15px);
+  }
 }
 
 .network__link--leight {

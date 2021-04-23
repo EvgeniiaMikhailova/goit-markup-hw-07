@@ -11,12 +11,12 @@
   margin-top: var(--card-set-gap);
 
   transition: box-shadow var(--animation);
-}
 
-.card:hover,
-.card:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .card__content {
@@ -61,10 +61,10 @@
   transform: translatey(100%);
 
   transition: transform var(--animation), opacity var(--animation);
-}
 
-.card:hover .card__overlay,
-.card__link:focus .card__overlay {
-  transform: translatey(0);
-  opacity: 1;
+  .card:hover &,
+  .card__link:focus & {
+    transform: translatey(0);
+    opacity: 1;
+  }
 }

@@ -19,12 +19,12 @@
   fill: var(--primary-text-color);
 
   transition: color var(--animation), fill var(--animation);
-}
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
 }
 
 .header-contacts__icon {

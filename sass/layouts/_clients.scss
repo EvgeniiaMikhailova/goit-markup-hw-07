@@ -19,10 +19,10 @@
   fill: var(--base-icon-color);
 
   transition: fill var(--animation), border var(--animation);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
 }

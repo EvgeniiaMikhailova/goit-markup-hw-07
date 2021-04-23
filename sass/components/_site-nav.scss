@@ -13,21 +13,21 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
 
-.site-nav__item:not(:last-child) {
-  margin-right: 50px;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .site-nav__link {
   color: var(--title-text-color);
 
   transition: color var(--animation);
-}
 
-.site-nav__link:hover,
-.site-nav__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .site-nav__link.current {

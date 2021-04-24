@@ -63,7 +63,7 @@
   transition: transform var(--animation), opacity var(--animation);
 
   .card:hover &,
-  .card__link:focus & {
+  .card:focus & {
     transform: translatey(0);
     opacity: 1;
   }
